@@ -10,7 +10,6 @@ function viewParagraph() {
   const arrowImg = this.closest("div").children[1];
   const pText = this.closest(".text-container").children[1];
   const h4Text = this.closest("div").children[0];
-  console.log(this.className);
 
   if (this.className != "dark") {
     arrow.forEach((el) => el.classList.remove("active"));
@@ -28,9 +27,6 @@ function viewParagraph() {
 
 // Events Handelers
 
-arrow.forEach((el) => {
-  el.addEventListener("click", viewParagraph);
-});
 header4.forEach((el) => {
   el.addEventListener("click", viewParagraph);
 });
