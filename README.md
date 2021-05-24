@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam/hub/accordion-card-using-sass-and-javascript-\_ID2lD3oK](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam/hub/accordion-card-using-sass-and-javascript-_ID2lD3oK)
+- Solution URL: [https://www.frontendmentor.io/solutions/accordion-card-using-sass-and-javascript-\_ID2lD3oK](https://www.frontendmentor.io/solutions/accordion-card-using-sass-and-javascript-_ID2lD3oK)
 - Live Site URL: [https://fem-accordioncard.netlify.app/](https://fem-accordioncard.netlify.app/)
 
 ## My process
