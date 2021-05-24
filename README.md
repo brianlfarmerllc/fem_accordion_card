@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam/hub/accordion-card-using-sass-and-javascript-\_ID2lD3oK](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam/hub/accordion-card-using-sass-and-javascript-_ID2lD3oK)
+- Live Site URL: [https://fem-accordioncard.netlify.app/](https://fem-accordioncard.netlify.app/)
 
 ## My process
 
@@ -140,5 +140,5 @@ I thought this was a well designed component that has purpose, function, and sty
 ## Author
 
 - Website - [Brian Farmer](https://brianlfarmerllc-biosite.netlify.app/)
-- GitHub URL: - [GitHub URL](https://github.com/brianlfarmerllc/fem_launch_timer)
+- GitHub URL: - [GitHub URL](https://github.com/brianlfarmerllc/fem_accordion_card)
 - Frontend Mentor - [@brianlfarmerllc](https://www.frontendmentor.io/profile/brianlfarmerllc)
