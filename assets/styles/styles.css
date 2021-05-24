@@ -10,7 +10,6 @@ html {
 }
 
 body {
-  max-width: 1440px;
   font-family: "Kumbh Sans", sans-serif;
 }
 
@@ -64,13 +63,23 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+}
+
+main .box {
+  z-index: 2;
+  position: absolute;
+  left: 6%;
+  top: 50%;
+  -webkit-transform: translateY(-22%);
+          transform: translateY(-22%);
 }
 
 section {
   background: white;
   max-width: 75%;
   min-width: 75%;
-  min-height: 60vh;
+  min-height: 65vh;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,6 +87,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
   overflow: hidden;
 }
 
@@ -85,13 +95,19 @@ section {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
-  position: relative;
 }
 
-.main-img img {
-  z-index: 100;
+.main-img .background-pattern {
   position: absolute;
-  left: -20%;
+  z-index: 0;
+  left: -54%;
+  top: -56%;
+}
+
+.main-img .woman {
+  position: absolute;
+  z-index: 1;
+  left: -7%;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -104,12 +120,55 @@ section {
           flex: 1 1 40rem;
 }
 
+.main-text .text-container {
+  padding-top: 1rem;
+}
+
+.main-text .text-container .view {
+  visibility: visible;
+  display: block;
+}
+
+.main-text .text-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-text .text-header img {
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.main-text .text-header .active {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  padding-bottom: 0rem;
+  padding-top: 1rem;
+}
+
+.main-text .text-header .dark {
+  color: #1d1e35;
+  font-weight: 700;
+}
+
 h2 {
   padding-bottom: 3rem;
 }
 
 h4 {
   padding-bottom: 1rem;
+}
+
+p {
+  width: 80%;
+  display: none;
 }
 
 hr {

@@ -4,27 +4,42 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  .box {
+    z-index: 2;
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    transform: translateY(-22%);
+  }
 }
 
 section {
   background: white;
   max-width: 75%;
   min-width: 75%;
-  min-height: 60vh;
+  min-height: 65vh;
   border-radius: 20px;
   display: flex;
   align-items: center;
+  position: relative;
   overflow: hidden;
 }
 
 .main-img {
   flex: 1 1 40rem;
-  position: relative;
 
-  img {
-    z-index: 100;
+  .background-pattern {
     position: absolute;
-    left: -20%;
+    z-index: 0;
+    left: -54%;
+    top: -56%;
+  }
+
+  .woman {
+    position: absolute;
+    z-index: 1;
+    left: -7%;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -33,6 +48,32 @@ section {
 .main-text {
   padding: 0rem 10rem 0rem 0rem;
   flex: 1 1 40rem;
+  .text-container {
+    padding-top: 1rem;
+
+    .view {
+      visibility: visible;
+      display: block;
+    }
+  }
+  .text-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      padding-bottom: 1rem;
+      cursor: pointer;
+    }
+    .active {
+      transform: rotate(180deg);
+      padding-bottom: 0rem;
+      padding-top: 1rem;
+    }
+    .dark {
+      color: $darkBlue;
+      font-weight: 700;
+    }
+  }
 }
 h2 {
   padding-bottom: 3rem;
@@ -40,6 +81,10 @@ h2 {
 
 h4 {
   padding-bottom: 1rem;
+}
+p {
+  width: 80%;
+  display: none;
 }
 
 hr {
