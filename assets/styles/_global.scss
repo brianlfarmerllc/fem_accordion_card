@@ -1,0 +1,52 @@
+//Set default browser box sizing, margin and padding
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+//Set default pixel size to 10 for easier rem usage
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1440px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+// Global Typography Styles
+
+li,
+button,
+label,
+input,
+textarea,
+a,
+p {
+  font-size: $bodyCopy;
+  font-weight: 400;
+  color: $grey;
+}
+
+h2 {
+  font-size: $header2;
+  font-weight: 700;
+  color: $bodyCopy;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: $grey;
+}
+hr {
+  background-color: $lighGrey;
+  height: 1px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

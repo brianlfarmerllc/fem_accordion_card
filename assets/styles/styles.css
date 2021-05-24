@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1440px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+li,
+button,
+label,
+input,
+textarea,
+a,
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #787887;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: 1.2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #787887;
+}
+
+hr {
+  background-color: #e7e7e9;
+  height: 1px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background: linear-gradient(to bottom, #af67e9, #6565e7);
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section {
+  background: white;
+  max-width: 75%;
+  min-width: 75%;
+  min-height: 60vh;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.main-img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  position: relative;
+}
+
+.main-img img {
+  z-index: 100;
+  position: absolute;
+  left: -20%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.main-text {
+  padding: 0rem 10rem 0rem 0rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+h2 {
+  padding-bottom: 3rem;
+}
+
+h4 {
+  padding-bottom: 1rem;
+}
+
+hr {
+  margin: 1.5rem 0rem;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */

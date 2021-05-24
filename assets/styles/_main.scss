@@ -1,0 +1,47 @@
+main {
+  background: $gradient;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background: white;
+  max-width: 75%;
+  min-width: 75%;
+  min-height: 60vh;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main-img {
+  flex: 1 1 40rem;
+  position: relative;
+
+  img {
+    z-index: 100;
+    position: absolute;
+    left: -20%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.main-text {
+  padding: 0rem 10rem 0rem 0rem;
+  flex: 1 1 40rem;
+}
+h2 {
+  padding-bottom: 3rem;
+}
+
+h4 {
+  padding-bottom: 1rem;
+}
+
+hr {
+  margin: 1.5rem 0rem;
+}
