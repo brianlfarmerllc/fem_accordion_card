@@ -87,7 +87,6 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
   overflow: hidden;
 }
 
@@ -95,19 +94,23 @@ section {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
+  position: relative;
+  min-height: 65vh;
 }
 
 .main-img .background-pattern {
   position: absolute;
+  width: 172%;
   z-index: 0;
-  left: -52%;
-  top: -56%;
+  top: -48%;
+  left: -90%;
 }
 
 .main-img .woman {
   position: absolute;
+  width: 100%;
   z-index: 1;
-  left: -7%;
+  left: -18%;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -193,30 +196,6 @@ hr {
   color: white;
 }
 
-@media screen and (max-width: 1375px) {
-  .main-img .background-pattern {
-    left: -55%;
-  }
-}
-
-@media screen and (max-width: 1330px) {
-  .main-img .background-pattern {
-    left: -57%;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .main-img .background-pattern {
-    left: -59%;
-  }
-}
-
-@media screen and (max-width: 1250px) {
-  .main-img .background-pattern {
-    left: -60%;
-  }
-}
-
 @media screen and (max-width: 1200px) {
   .box {
     display: none;
@@ -227,22 +206,28 @@ hr {
     display: block;
     overflow: visible;
   }
+  .main-img {
+    min-height: 10vh;
+    text-align: center;
+  }
   .main-img .background-pattern {
+    width: auto;
     content: url("../images/bg-pattern-mobile.svg");
-    top: 0%;
-    left: 47%;
+    top: -5%;
+    left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
   .main-img .woman {
+    width: auto;
     content: url("../images/illustration-woman-online-mobile.svg");
-    top: -18%;
-    left: 45%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    top: -125%;
+    left: 50%;
+    -webkit-transform: translateX(-55%);
+            transform: translateX(-55%);
   }
   .main-text {
-    padding: 15rem 2rem 3rem 2rem;
+    padding: 5rem 2rem 3rem 2rem;
   }
   h2 {
     text-align: center;
@@ -250,19 +235,9 @@ hr {
 }
 
 @media screen and (max-width: 400px) {
-  .main-img .background-pattern {
-    content: url("../images/bg-pattern-mobile.svg");
-    top: 0%;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
-  .main-img .woman {
-    content: url("../images/illustration-woman-online-mobile.svg");
-    top: -18%;
-    left: 45%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+  main {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
   h4 {
     font-size: 1.4rem;

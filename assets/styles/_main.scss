@@ -22,24 +22,27 @@ section {
   border-radius: 20px;
   display: flex;
   align-items: center;
-  position: relative;
   overflow: hidden;
 }
 
 .main-img {
   flex: 1 1 40rem;
+  position: relative;
+  min-height: 65vh;
 
   .background-pattern {
     position: absolute;
+    width: 172%;
     z-index: 0;
-    left: -52%;
-    top: -56%;
+    top: -48%;
+    left: -90%;
   }
 
   .woman {
     position: absolute;
+    width: 100%;
     z-index: 1;
-    left: -7%;
+    left: -18%;
     top: 50%;
     transform: translateY(-50%);
   }

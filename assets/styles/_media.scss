@@ -1,32 +1,3 @@
-@media screen and (max-width: 1375px) {
-  .main-img {
-    .background-pattern {
-      left: -55%;
-    }
-  }
-}
-@media screen and (max-width: 1330px) {
-  .main-img {
-    .background-pattern {
-      left: -57%;
-    }
-  }
-}
-@media screen and (max-width: 1280px) {
-  .main-img {
-    .background-pattern {
-      left: -59%;
-    }
-  }
-}
-@media screen and (max-width: 1250px) {
-  .main-img {
-    .background-pattern {
-      left: -60%;
-    }
-  }
-}
-
 @media screen and (max-width: 1200px) {
   .box {
     display: none;
@@ -39,22 +10,26 @@
     overflow: visible;
   }
   .main-img {
+    min-height: 10vh;
+    text-align: center;
     .background-pattern {
+      width: auto;
       content: url("../images/bg-pattern-mobile.svg");
-      top: 0%;
-      left: 47%;
+      top: -5%;
+      left: 50%;
       transform: translateX(-50%);
     }
     .woman {
+      width: auto;
       content: url("../images/illustration-woman-online-mobile.svg");
-      top: -18%;
-      left: 45%;
-      transform: translateX(-50%);
+      top: -125%;
+      left: 50%;
+      transform: translateX(-55%);
     }
   }
 
   .main-text {
-    padding: 15rem 2rem 3rem 2rem;
+    padding: 5rem 2rem 3rem 2rem;
   }
 
   h2 {
@@ -63,18 +38,14 @@
 }
 
 @media screen and (max-width: 400px) {
+  main {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
   .main-img {
     .background-pattern {
-      content: url("../images/bg-pattern-mobile.svg");
-      top: 0%;
-      left: 50%;
-      transform: translateX(-50%);
     }
     .woman {
-      content: url("../images/illustration-woman-online-mobile.svg");
-      top: -18%;
-      left: 45%;
-      transform: translateX(-50%);
     }
   }
   h4 {
