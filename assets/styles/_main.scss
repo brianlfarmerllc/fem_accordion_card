@@ -11,6 +11,7 @@ main {
     left: 6%;
     top: 50%;
     transform: translateY(-22%);
+    animation: float 2s ease-in-out infinite alternate;
   }
 }
 
@@ -97,4 +98,13 @@ p {
 
 hr {
   margin: 1.5rem 0rem;
+}
+
+@keyframes float {
+  from {
+    transform: translateY(-20%);
+  }
+  to {
+    transform: translateY(-30%);
+  }
 }

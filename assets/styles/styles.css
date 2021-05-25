@@ -73,6 +73,8 @@ main .box {
   top: 50%;
   -webkit-transform: translateY(-22%);
           transform: translateY(-22%);
+  -webkit-animation: float 2s ease-in-out infinite alternate;
+          animation: float 2s ease-in-out infinite alternate;
 }
 
 section {
@@ -182,6 +184,28 @@ p {
 
 hr {
   margin: 1.5rem 0rem;
+}
+
+@-webkit-keyframes float {
+  from {
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+  }
+  to {
+    -webkit-transform: translateY(-30%);
+            transform: translateY(-30%);
+  }
+}
+
+@keyframes float {
+  from {
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+  }
+  to {
+    -webkit-transform: translateY(-30%);
+            transform: translateY(-30%);
+  }
 }
 
 .attribution {
